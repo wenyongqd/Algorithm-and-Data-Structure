@@ -42,4 +42,20 @@ class ArrayQueue {
         rear++;
         arr[rear] = n;
     }
+
+    //获取队列的数据，出队列
+    public int getQueue() {
+        //判断队列是否为空
+        if(isEmpty()) {
+            //抛出异常
+            throw new RuntimeException("队列为空，不能取数据");
+        }
+        front++;
+        return arr[front];
+    }
+
+    //显示队列的所有数据
+    public void showQueue() {
+        //遍历
+    }
 }
