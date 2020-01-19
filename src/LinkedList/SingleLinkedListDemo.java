@@ -40,7 +40,7 @@ public class SingleLinkedListDemo {
         singleLinkedList.update(newHeroNode);
 
         //删除一个节点
-        singleLinkedList.del(11);
+        singleLinkedList.del(9);
 
         //显示
         singleLinkedList.list();
@@ -54,12 +54,13 @@ public class SingleLinkedListDemo {
 
 
     //定义HeroNode，每个HeroNode对象就是一个节点
-    //求单链表中有效节点的个数
+    //求单链表中有效节点的个数(如果是带头节点的链表，需要不统计头节点)
     public static int getLength(HeroNode head) {
-        if(head.next == null) {
+        if(head.next == null) { //空链表
             return 0;
         }
         int length = 0;
+        //定义一个辅助的变量
         HeroNode cur = head.next;
         while(cur != null) {
             length++;
