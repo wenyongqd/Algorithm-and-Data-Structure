@@ -6,17 +6,17 @@ public class SingleLinkedListDemo {
 
         //进行测试
         //先创建节点
-//        HeroNode hero1 = new HeroNode(1, "宋江", "及时雨");
-//        HeroNode hero2 = new HeroNode(3, "卢俊义", "王麒麟");
-//        HeroNode hero3 = new HeroNode(4, "吴用", "智多星");
-//        HeroNode hero4 = new HeroNode(7, "林冲", "豹子头");
-//        HeroNode hero5 = new HeroNode(9, "何文勇", "勇哥");
+        HeroNode hero1 = new HeroNode(1, "宋江", "及时雨");
+        HeroNode hero2 = new HeroNode(3, "卢俊义", "王麒麟");
+        HeroNode hero3 = new HeroNode(4, "吴用", "智多星");
+        HeroNode hero4 = new HeroNode(7, "林冲", "豹子头");
+        HeroNode hero5 = new HeroNode(9, "何文勇", "勇哥");
 
-        HeroNode hero1 = new HeroNode(1, "", "");
-        HeroNode hero2 = new HeroNode(3, "", "");
-        HeroNode hero3 = new HeroNode(4, "", "");
-        HeroNode hero4 = new HeroNode(7, "", "");
-        HeroNode hero5 = new HeroNode(9, "", "");
+//        HeroNode hero1 = new HeroNode(1, "", "");
+//        HeroNode hero2 = new HeroNode(3, "", "");
+//        HeroNode hero3 = new HeroNode(4, "", "");
+//        HeroNode hero4 = new HeroNode(7, "", "");
+//        HeroNode hero5 = new HeroNode(9, "", "");
 
 
 
@@ -24,12 +24,17 @@ public class SingleLinkedListDemo {
         SingleLinkedList singleLinkedList = new SingleLinkedList();
 
         //加入
-        singleLinkedList.addByOrder(hero1);
-        singleLinkedList.addByOrder(hero2);
+//        singleLinkedList.addByOrder(hero1);
+//        singleLinkedList.addByOrder(hero2);
+//        singleLinkedList.addByOrder(hero4);
+//        singleLinkedList.addByOrder(hero3);
+//        singleLinkedList.addByOrder(hero5);
 
-        singleLinkedList.addByOrder(hero4);
-        singleLinkedList.addByOrder(hero3);
-        singleLinkedList.addByOrder(hero5);
+        singleLinkedList.add(hero1);
+        singleLinkedList.add(hero2);
+        singleLinkedList.add(hero4);
+        singleLinkedList.add(hero3);
+        singleLinkedList.add(hero5);
 
         //测试修改节点的代码
         HeroNode newHeroNode = new HeroNode(3,"小卢","玉麒麟");
@@ -173,13 +178,20 @@ class SingleLinkedList {
     //显示链表[遍历]
     public void list() {
         //判断链表是否为空
+        if(head.next == null) {
+            System.out.println("链表为空");
+            return;
+        }
+        //因为头节点不能动，因此我们需要一个辅助变量来遍历
         HeroNode temp = head.next;
         while (true) {
+            //判断是否到链表最后
             if (temp == null) {
                 break;
             }
-
+            //输出节点的信息
             System.out.println(temp);
+            //将temp后移
             temp = temp.next;
 
         }
@@ -190,70 +202,31 @@ class SingleLinkedList {
     //第二种方式在添加英雄时，根据排名将英雄加入到指定位置
     //将最后这个节点的next指向新的节点
     public void addByOrder(HeroNode heroNode) {
-//        HeroNode temp = head;
-//        for(heroNode temp = head; )
-
-
+        //因为节点不能动，因此我们仍然通过一个辅助指针（变量）来帮助找到添加的位置
+        //因为单链表，因此我们找的temp是位于添加位置的前一个节点，否则添加不了
         HeroNode temp = head;
-
-
-        Boolean flag = false;
-//        while (true) {
-//            if (temp.next == null) {
-//                break;
-//            }
-//            if(temp.next.no > heroNode.no) {
-//                break;
-//            }
-//            else if (temp.next.no == heroNode.no) {
-//                flag = true;
-//            }
-//            temp = temp.next;
-//
-//        }
-//        if(flag) {
-//            System.out.println("准备插入的英雄编号" + heroNode.no + "已经存在，不能插入。");
-//        }else {
-//
-//            temp.next = heroNode;
-//            heroNode.next= temp.next;
-//
-//
-//
-//        }
-
+        Boolean flag = false;//flad标志添加的编号是否存在，默认为false
         while (true) {
-
-            if (temp.next == null) {
-//                temp.next = heroNode;
+            if (temp.next == null) {//说明temp已经在链表的最后
                 break;
             }
-            if (temp.next.no > heroNode.no) {
-//                HeroNode deposite = temp.next;
-//
-//                temp.next = heroNode;
-//                heroNode.next = deposite;
-                heroNode.next= temp.next;
+            if(temp.next.no > heroNode.no) {//位置找到，就在temp的后面插入
+                break;
+            }
+            else if (temp.next.no == heroNode.no) {//说明希望添加的heroNode的编号已然存在
+                flag = true;//说明编号存在
                 break;
             }
             temp = temp.next;
+
         }
-        temp.next = heroNode;
-
-//        while (temp.next.no < heroNode.no) {
-//
-//
-//            temp = temp.next;
-//
-//
-//        }
-//
-//        HeroNode deposite = temp.next;
-//
-//        temp.next = heroNode;
-//        heroNode.next = deposite;
-
-
+        if(flag) {
+            System.out.printf("准备插入的英雄编号" + heroNode.no + "已经存在，不能插入。");
+        }else {
+            //插入到链表中，temp的后面
+            temp.next = heroNode;
+            heroNode.next= temp.next;
+        }
     }
 }
 
