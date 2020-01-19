@@ -12,29 +12,26 @@ public class SingleLinkedListDemo {
         HeroNode hero4 = new HeroNode(7, "林冲", "豹子头");
         HeroNode hero5 = new HeroNode(9, "何文勇", "勇哥");
 
-//        HeroNode hero1 = new HeroNode(1, "", "");
-//        HeroNode hero2 = new HeroNode(3, "", "");
-//        HeroNode hero3 = new HeroNode(4, "", "");
-//        HeroNode hero4 = new HeroNode(7, "", "");
-//        HeroNode hero5 = new HeroNode(9, "", "");
-
-
-
         //创建链表
         SingleLinkedList singleLinkedList = new SingleLinkedList();
 
-        //加入
-//        singleLinkedList.addByOrder(hero1);
-//        singleLinkedList.addByOrder(hero2);
-//        singleLinkedList.addByOrder(hero4);
-//        singleLinkedList.addByOrder(hero3);
-//        singleLinkedList.addByOrder(hero5);
 
-        singleLinkedList.add(hero1);
-        singleLinkedList.add(hero2);
-        singleLinkedList.add(hero4);
-        singleLinkedList.add(hero3);
-        singleLinkedList.add(hero5);
+        //加入按照编号顺序
+        singleLinkedList.addByOrder(hero1);
+        singleLinkedList.addByOrder(hero2);
+        singleLinkedList.addByOrder(hero4);
+        singleLinkedList.addByOrder(hero3);
+        singleLinkedList.addByOrder(hero5);
+
+        singleLinkedList.list();
+
+
+//        //加入
+//        singleLinkedList.add(hero1);
+//        singleLinkedList.add(hero2);
+//        singleLinkedList.add(hero4);
+//        singleLinkedList.add(hero3);
+//        singleLinkedList.add(hero5);
 
         //测试修改节点的代码
         HeroNode newHeroNode = new HeroNode(3,"小卢","玉麒麟");
@@ -205,7 +202,7 @@ class SingleLinkedList {
         //因为节点不能动，因此我们仍然通过一个辅助指针（变量）来帮助找到添加的位置
         //因为单链表，因此我们找的temp是位于添加位置的前一个节点，否则添加不了
         HeroNode temp = head;
-        Boolean flag = false;//flad标志添加的编号是否存在，默认为false
+        boolean flag = false;//flad标志添加的编号是否存在，默认为false
         while (true) {
             if (temp.next == null) {//说明temp已经在链表的最后
                 break;
