@@ -76,18 +76,21 @@ public class SingleLinkedListDemo {
     //4.得到size后，我们从链表的第一个开始遍历(size - index)个，就可以得到
     //5.如果得到了返回该节点，否则返回空
     public static HeroNode findLastIndexNode(HeroNode head, int index) {
+        //判断如果链表为空，则返回null
         if(head.next == null){
-            return null;
+            return null; //没有找到
         }
 
-
+        //第一个遍历得到链表的长度（节点个数）
+        int size = getLength(head);
+        //第二次遍历size - index位置，就是我们倒数的第k个节点
+        //先做一个index的校验
+        if(index > size || index < 0) {
+            return null;
+        }
+        //定义辅助变量，for循环定位到倒数的index
         HeroNode cur = head.next;
-        int length = getLength(head);
-        if(index > length || index < 0) {
-
-            return null;
-        }
-        for(int i = 0; i < length - index; i++ ) {
+        for(int i = 0; i < size - index; i++ ) {
             cur = cur.next;
         }
 
