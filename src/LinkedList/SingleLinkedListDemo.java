@@ -81,9 +81,9 @@ public class SingleLinkedListDemo {
             return null; //没有找到
         }
 
-        //第一个遍历得到链表的长度（节点个数）
+        //第一次遍历得到链表的长度（节点个数）
         int size = getLength(head);
-        //第二次遍历size - index位置，就是我们倒数的第k个节点
+        //第二次遍历（size - index）位置，就是我们倒数的第k个节点
         //先做一个index的校验
         if(index > size || index < 0) {
             return null;
