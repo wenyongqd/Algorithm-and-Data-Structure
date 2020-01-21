@@ -172,7 +172,7 @@ class SingleLinkedList {
     //2. 说明我们在比较时，是temp.next.no和需要删除节点的no比较
     public void del(int no) {
         HeroNode temp = head;
-        Boolean flag = false; //标记是否找到待删除的接待你
+        boolean flag = false; //标记是否找到待删除的接待你
         while (true) {
             if(temp.next == null) { //已经到链表的最后
                 break;
