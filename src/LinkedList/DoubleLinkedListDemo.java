@@ -127,6 +127,7 @@ class HeroNode2 {
             if(flag) { //找到
                 //可以删除
                 temp.pre.next = temp.next;
+                temp.next.pre = temp.pre;
             } else {
                 System.out.printf("您要删除的%d数据不存在\n", no);
             }
