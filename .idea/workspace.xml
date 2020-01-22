@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/LinkedList/Boy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/LinkedList/CircleSingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/LinkedList/Josepfu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/LinkedList/Josepfu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/Josepfu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/Josepfu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue/ArrayQueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="221">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
             </state>
           </provider>
@@ -32,7 +28,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Queue/CircleArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1209">
               <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="3250">
               <caret line="252" selection-start-line="252" selection-end-line="276" selection-end-column="1" />
             </state>
           </provider>
@@ -55,12 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/DoubleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="286">
               <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -68,20 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList/Josepfu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-              <folding>
-                <element signature="e#1825#1826#0" expanded="true" />
-                <element signature="e#1853#1854#0" expanded="true" />
-                <element signature="e#1879#1880#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#1965#1966#0" expanded="true" />
-                <element signature="e#1993#1994#0" expanded="true" />
-                <element signature="e#2020#2021#0" expanded="true" />
-                <element signature="e#2057#2058#0" expanded="true" />
-                <element signature="e#2089#2090#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="318">
+              <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -107,14 +87,15 @@
         <option value="$PROJECT_DIR$/src/LinkedList/SingleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/DoubleLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/LinkedList/Josepfu.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="666" />
-    <option name="y" value="23" />
-    <option name="width" value="694" />
-    <option name="height" value="937" />
+    <option name="x" value="1500" />
+    <option name="y" value="151" />
+    <option name="width" value="939" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -267,15 +248,16 @@
       <workItem from="1579440910328" duration="9672000" />
       <workItem from="1579529570552" duration="2089000" />
       <workItem from="1579582253285" duration="532000" />
-      <workItem from="1579612416300" duration="6443000" />
+      <workItem from="1579612416300" duration="7114000" />
+      <workItem from="1579666379436" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40612000" />
+    <option name="totallyTimeSpent" value="41385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="666" y="23" width="694" height="937" extended-state="0" />
+    <frame x="1500" y="151" width="939" height="958" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22307692" />
@@ -287,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15421115" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27164888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1617536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,10 +277,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.15065244" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14699075" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="12" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32977462" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,14 +310,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Queue/ArrayQueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="221">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Queue/CircleArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1209">
           <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -347,38 +329,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="3250">
           <caret line="252" selection-start-line="252" selection-end-line="276" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/DoubleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="286">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList/Josepfu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-          <folding>
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1879#1880#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1965#1966#0" expanded="true" />
-            <element signature="e#1993#1994#0" expanded="true" />
-            <element signature="e#2020#2021#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2089#2090#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
         </state>
       </provider>
     </entry>
