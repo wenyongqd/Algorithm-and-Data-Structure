@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Stack/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/Calculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stack/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            <state relative-caret-position="348">
+              <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
               <folding>
                 <element signature="e#404#405#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
@@ -94,6 +93,8 @@
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#1754#1755#0" expanded="true" />
                 <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#4014#4015#0" expanded="true" />
+                <element signature="e#4089#4090#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,10 +128,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2645" />
+    <option name="x" value="668" />
     <option name="y" value="23" />
-    <option name="width" value="979" />
-    <option name="height" value="1384" />
+    <option name="width" value="867" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -191,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayStackDemo">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="ArrayStackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack.ArrayStackDemo" />
       <module name="Algorithm and Data Structure" />
@@ -205,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.CircleArrayQueue" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Calculator" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ArrayStackDemo" />
         <item itemvalue="Application.Josepfu" />
         <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.SingleLinkedListDemo" />
-        <item itemvalue="Application.CircleArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -287,15 +288,15 @@
       <workItem from="1579612416300" duration="7114000" />
       <workItem from="1579666379436" duration="102000" />
       <workItem from="1579666588714" duration="82000" />
-      <workItem from="1579702841505" duration="8948000" />
+      <workItem from="1579702841505" duration="11153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50415000" />
+    <option name="totallyTimeSpent" value="52620000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2645" y="23" width="979" height="1384" extended-state="0" />
+    <frame x="668" y="23" width="867" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22222222" />
@@ -307,7 +308,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26946107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20759194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28622755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,10 +316,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.09844961" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.09844961" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32977462" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32945737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="348">
+          <caret line="52" column="30" lean-forward="true" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
           <folding>
             <element signature="e#404#405#0" expanded="true" />
             <element signature="e#445#446#0" expanded="true" />
@@ -417,6 +418,8 @@
             <element signature="e#518#519#0" expanded="true" />
             <element signature="e#1754#1755#0" expanded="true" />
             <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#4014#4015#0" expanded="true" />
+            <element signature="e#4089#4090#0" expanded="true" />
           </folding>
         </state>
       </provider>
