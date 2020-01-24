@@ -52,7 +52,7 @@ public class PolandNotion {
                 s2.add(item);
             } else if (item.equals("(")) {
                 s1.push(item);
-            } else if (item.equals("")) {
+            } else if (item.equals(")")) {
                 //如果是右括号"）"，则依次弹出s1栈的运算符，并压入s2，直到遇左括号为止，此时将这一堆括号丢弃
                 while (!s1.peek().equals("(")) {
                     s2.add(s1.pop());
@@ -62,7 +62,7 @@ public class PolandNotion {
                 //当item的优先级小于等于s1栈顶运算符，将s1栈顶的运算符弹出并加入到s2中，再次转到(4.1)与
                 //s1中新的栈顶运算符相比较
                 //问题：缺少一个比较优先级高低的方法
-                while (s1.size() != 0 && Operation.getValue(s1.peek()) != Operation.getValue(item)) {
+                while (s1.size() != 0 && Operation.getValue(s1.peek()) >= Operation.getValue(item)) {
                     s2.add(s1.pop());
                 }
                 //还需要将item压入栈
