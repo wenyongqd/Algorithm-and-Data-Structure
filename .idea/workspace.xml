@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="" />
+    <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Stack/PolandNotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/PolandNotion.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Stack/PolandNotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+            <state relative-caret-position="299">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1052#1060#0" expanded="true" />
@@ -125,9 +127,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="655" />
+    <option name="x" value="741" />
     <option name="y" value="23" />
-    <option name="width" value="780" />
+    <option name="width" value="694" />
     <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -273,15 +275,15 @@
       <workItem from="1579666379436" duration="102000" />
       <workItem from="1579666588714" duration="82000" />
       <workItem from="1579702841505" duration="11822000" />
-      <workItem from="1579784630126" duration="6026000" />
+      <workItem from="1579784630126" duration="9472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59315000" />
+    <option name="totallyTimeSpent" value="62761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="655" y="23" width="780" height="937" extended-state="0" />
+    <frame x="741" y="23" width="694" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2201087" />
@@ -293,7 +295,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20759194" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20759194" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.28622755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.09727165" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20759194" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32945737" />
@@ -395,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack/PolandNotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="20" column="36" lean-forward="true" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        <state relative-caret-position="299">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1052#1060#0" expanded="true" />
