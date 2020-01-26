@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/Sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/Sort/InsertSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/InsertSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,14 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+            <state relative-caret-position="364">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/Sort/SelectSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -155,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.BubbleSort" />
       <module name="Algorithm and Data Structure" />
@@ -182,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.RecursionTest" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.RecursionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -255,12 +263,12 @@
       <workItem from="1579784630126" duration="9578000" />
       <workItem from="1579870636230" duration="4370000" />
       <workItem from="1579958031650" duration="9436000" />
-      <workItem from="1580045887850" duration="4258000" />
+      <workItem from="1580045887850" duration="6977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80931000" />
+    <option name="totallyTimeSpent" value="83650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="734" y="23" width="652" height="937" extended-state="0" />
@@ -424,11 +432,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="120" column="47" lean-forward="true" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
+        <state relative-caret-position="364">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
