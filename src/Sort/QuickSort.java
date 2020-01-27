@@ -1,13 +1,33 @@
 package Sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr = {-9, 78, 0, 23, -567, 70, -1, 9000, 4561};
-        quickSort(arr, 0 ,arr.length -1);
-        System.out.println(Arrays.toString(arr));
+//        int[] arr = {-9, 78, 0, 23, -567, 70, -1, 9000, 4561};
+//        quickSort(arr, 0 ,arr.length -1);
+//        System.out.println(Arrays.toString(arr));
 
+        //测试快排的执行速度
+        //创建要给80000个的随机的数组
+        int[] arr = new int[8000000];
+        for (int i = 0; i < 8000000; i++) {
+            arr[i] = (int) (Math.random() * 8000000); //生成一个[0, 8000000]的数组
+        }
+
+        System.out.println("排序前");
+        Date data1 = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String data1Str = simpleDateFormat.format(data1);
+        System.out.println("排序前的时间是" + data1Str);
+
+        quickSort(arr, 0 ,arr.length -1);
+
+        Date data2 = new Date();
+        String data2Str = simpleDateFormat.format(data2);
+        System.out.println("排序后的时间是" + data2Str);
 
     }
 
@@ -65,10 +85,5 @@ public class QuickSort {
         if (right > l) {
             quickSort(arr, l, right);
         }
-
-
-
-
-
     }
 }

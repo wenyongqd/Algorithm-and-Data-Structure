@@ -10,9 +10,9 @@ public class ShellSort {
 //        shellSort(arr);
 
         //测试80000个数据
-        int[] arr = new int[80000];
-        for (int i =0; i < 80000; i++) {
-            arr[i] = (int)(Math.random()*800000); //生成一个[0, 80000]的数
+        int[] arr = new int[8000000];
+        for (int i =0; i < 8000000; i++) {
+            arr[i] = (int)(Math.random()*80000000); //生成一个[0, 80000]的数
 
         }
 
