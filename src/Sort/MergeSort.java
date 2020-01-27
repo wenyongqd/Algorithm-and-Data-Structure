@@ -34,7 +34,7 @@ public class MergeSort {
      */
     public static void merge(int[] arr, int left, int mid, int right,int[] temp) {
         int i = left; //左边有序序列的初始索引
-        int j = mid + j; //右边有序序列的初始索引
+        int j = mid + 1; //右边有序序列的初始索引
         int t = 0; //指向temp数组的当前节点
 
         //（一）
@@ -59,11 +59,11 @@ public class MergeSort {
         while ( i <= mid) { //说明左边的有序序列还有剩余元素,就全部填充到temp
             temp[t] = arr[i];
             t += 1;
-            j += 1;
+            i += 1;
         }
 
         while ( j <= right) { //说明右边的有序序列还有剩余的元素，就全部填充到temp
-            temp[t] = arr[i];
+            temp[t] = arr[j];
             t += 1;
             j += 1;
         }
