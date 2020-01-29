@@ -10,7 +10,6 @@ public class RadixSort {
 
     //基数排序方法
     public static void radixSort(int[] arr) {
-
         //800000000 * 11 * 4 / 1024 / 1024/ 1024 = 3.24G 需要这么大的内存
 
         //根据前面的推导过程，我们可以得到最终的基数排序代码
@@ -22,7 +21,6 @@ public class RadixSort {
                 max = arr[i];
             }
         }
-
         //得到最大数是几位数
         int maxlength = (max + "").length();
 
@@ -64,10 +62,8 @@ public class RadixSort {
                 //第一轮处理后，需要将每个bucketElementCounts[k]=0!!!!
                 bucketElementCounts[k] = 0;
             }
-
             System.out.println("第"+(i + 1)+"轮，对各个位的排序处理 arr =" + Arrays.toString(arr));
         }
-
 
 //
 //        //第一轮（针对每个元素的个位数进行排序处理）
