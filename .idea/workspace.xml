@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sort/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Search/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort/SeqSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Search/SeqSearch.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="49" />
+            <state relative-caret-position="650">
+              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Sort/SeqSearch.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Search/SeqSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="26">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Search/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -117,14 +127,16 @@
         <option value="$PROJECT_DIR$/src/Sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/RadixSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/SeqSearch.java" />
+        <option value="$PROJECT_DIR$/src/Search/SeqSearch.java" />
+        <option value="$PROJECT_DIR$/src/Search/BinarySearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="659" />
+    <option name="x" value="1208" />
     <option name="y" value="23" />
-    <option name="width" value="703" />
-    <option name="height" value="937" />
+    <option name="width" value="1300" />
+    <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +160,7 @@
               <item name="Algorithm and Data Structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm and Data Structure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -178,13 +190,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeqSearch">
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Search.BinarySearch" />
+      <module name="Algorithm and Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.MergeSort" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,7 +222,7 @@
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,7 +235,7 @@
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,24 +244,11 @@
       </method>
     </configuration>
     <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.SeqSearch" />
+      <option name="MAIN_CLASS_NAME" value="Search.SeqSearch" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.ShellSort" />
-      <module name="Algorithm and Data Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SeqSearch" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -281,18 +293,18 @@
       <workItem from="1580045887850" duration="8744000" />
       <workItem from="1580132388999" duration="9996000" />
       <workItem from="1580215207371" duration="611000" />
-      <workItem from="1580297809622" duration="551000" />
+      <workItem from="1580297809622" duration="2430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96575000" />
+    <option name="totallyTimeSpent" value="98454000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="659" y="23" width="703" height="937" extended-state="0" />
+    <frame x="2574" y="23" width="1300" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2518968" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2518968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +321,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20759194" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.13227513" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Sequence" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32858837" />
@@ -421,23 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Recursion/RecursionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" selection-start-line="22" selection-end-line="42" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/InsertSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -482,10 +477,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/SeqSearch.java">
+    <entry file="file://$PROJECT_DIR$/src/Search/SeqSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="26">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion/RecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>

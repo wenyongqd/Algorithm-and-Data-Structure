@@ -1,4 +1,4 @@
-package Sort;
+package Search;
 
 public class SeqSearch {
     public static void main(String[] args) {
