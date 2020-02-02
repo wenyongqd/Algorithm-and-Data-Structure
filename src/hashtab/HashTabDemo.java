@@ -64,7 +64,6 @@ class HashTab {
         for (int i = 0; i < size; i++) {
             empLinkedListArray[i] = new EmpLinkedList();
         }
-
     }
 
     public void list() {
@@ -94,7 +93,6 @@ class HashTab {
         }
 
     }
-
     //编写散列函数，使用一个简单取模法
     public int hashFun(int id) {
         return id % size;
@@ -185,5 +183,4 @@ class EmpLinkedList {
         }
         return curEmp;
     }
-
 }
