@@ -1,5 +1,3 @@
-package hashtab;
-
 import java.util.Scanner;
 
 public class HashTabDemo {

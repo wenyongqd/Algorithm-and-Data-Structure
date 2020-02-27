@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinSegmentTree",
+            "request": "launch",
+            "mainClass": "MinSegmentTree",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution2",
+            "request": "launch",
+            "mainClass": "Solution2",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution1",
+            "request": "launch",
+            "mainClass": "Solution1",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeSortedArrays",
+            "request": "launch",
+            "mainClass": "MergeSortedArrays",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "Main"
+        }
+    ]
+}

@@ -1,5 +1,3 @@
-package Queue;
-
 import java.net.PortUnreachableException;
 import java.security.PublicKey;
 import java.util.Scanner;
