@@ -22,7 +22,9 @@ public class Test {
         ArrayList b = new ArrayList();
         b = als.get(0);
         Collections.reverse(als);
-        System.out.println(b);
-        System.out.println(als);
+        a1.remove(0);
+        System.out.println(Integer.valueOf(a1.get(0)));
+        System.out.println(a1);
+        // System.out.println(als);
     }
 }

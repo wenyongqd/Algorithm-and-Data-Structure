@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LowestAncestor",
+            "request": "launch",
+            "mainClass": "LowestAncestor",
+            "projectName": "Algorithm and Data Structure_a1cd9742"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
             "mainClass": "Test",
