@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution_508 {
     Map<Integer,Integer> map = new HashMap<Integer, Integer>();
     int sum = 0;
     int max = 0;
