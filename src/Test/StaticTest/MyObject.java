@@ -1,4 +1,4 @@
-package leetCode.StaticTest;
+package Test.StaticTest;
 
 class MyObject {
     private static String str1 = "staticProperty";
@@ -34,6 +34,7 @@ class MyObject {
     /* main方法中，先创建对象，有对象来调用方法*/
     public static void main(String[] args) {
         MyObject.print2();
+        System.out.println("=========");
         MyObject myPro = new MyObject();
         myPro.print1();
     }

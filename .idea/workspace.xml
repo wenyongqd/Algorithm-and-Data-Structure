@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Test/TestAncestor/LowestAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/TestAncestor/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_100.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_100.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_112.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_113.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_113.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_124.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_129.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_129.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_236.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_236.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_297.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_297.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_429.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_429.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_508.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_508.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_814.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_814.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_91.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_91.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_96.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Solution_96.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/Tree/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/Tree/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/hashTable/LongestSubstringWithoutRepeatingCharacters/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/datestructure/leetCode/hashTable/LongestSubstringWithoutRepeatingCharacters/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashtab/HashTabDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashtab/HashTabDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datestructure/leetCode/StaticTest/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/StaticTest/MyObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +45,12 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Test" />
       <recent name="$PROJECT_DIR$/datestructure" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LowestAncestor">
+  <component name="RunManager" selected="Application.MyObject (1)">
     <configuration name="BinarySortTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BinarySortTreeDemo" />
       <module name="Algorithm and Data Structure" />
@@ -93,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Search.InsertValueSearch" />
+    <configuration name="LowestAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestAncestor.LowestAncestor" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Search.*" />
+          <option name="PATTERN" value="Test.TestAncestor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestAncestor.LowestAncestor" />
+    <configuration name="MyObject (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.StaticTest.MyObject" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.TestAncestor.*" />
+          <option name="PATTERN" value="Test.StaticTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyObject (1)" />
         <item itemvalue="Application.LowestAncestor" />
         <item itemvalue="Application.HashTabDemo" />
         <item itemvalue="Application.BinarySortTreeDemo" />
         <item itemvalue="Application.MyObject" />
-        <item itemvalue="Application.InsertValueSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +162,7 @@
       <workItem from="1580559475920" duration="229000" />
       <workItem from="1580613426818" duration="134000" />
       <workItem from="1580648369240" duration="508000" />
-      <workItem from="1583548852750" duration="1039000" />
+      <workItem from="1583548852750" duration="1314000" />
     </task>
     <servers />
   </component>
@@ -190,22 +174,22 @@
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
     <state x="329" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1642.1027@38.23.1642.1027" timestamp="1583549532105" />
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1583549895994">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1583550172059">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1583549895994" />
-    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1583549895994">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1583550172059" />
+    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1583550172058">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1583549895994" />
-    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1583549895993">
+    <state width="1358" height="191" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1583550172058" />
+    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1583550172058">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1583549895993" />
-    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1583549895994">
+    <state width="1358" height="191" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1583550172058" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1583550172059">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1583549895994" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1583550172059" />
     <state x="681" y="157" key="SettingsEditor" timestamp="1583549044481">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
