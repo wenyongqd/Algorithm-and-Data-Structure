@@ -1,3 +1,5 @@
+package leetCode.Tree;
+
 class Solution_96 {
     public int numTrees(int n) {
         int[] G = new int[n+1];

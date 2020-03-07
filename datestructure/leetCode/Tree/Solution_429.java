@@ -1,3 +1,5 @@
+package leetCode.Tree;
+
 /*
 // Definition for a Node.
 class Node {

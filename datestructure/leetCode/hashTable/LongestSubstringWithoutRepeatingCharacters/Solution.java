@@ -1,3 +1,5 @@
+package leetCode.hashTable.LongestSubstringWithoutRepeatingCharacters;
+
 import java.util.*;
 
 class Solution {
