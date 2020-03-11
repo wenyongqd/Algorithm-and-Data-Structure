@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2b358f6-654f-44a3-832d-5651df571605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datestructure/leetCode/LinkedList/Solution_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datestructure/leetCode/LinkedList/Solution_24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/GraphDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LinkedListGraph/CheckDFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LinkedListGraph/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LinkedListGraph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LinkedListGraph/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graph/LinkedListGraph/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/MinSegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/Test/StaticTest/MyObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm and Data Structure/Test/StaticTest/MyObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BinarySortTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/BinarySortTreeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/MinSegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/MinSegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/MinSegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTree/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/HeroNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/SingleLinkedListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/StaticTest/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/StaticTest/MyObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyObject (1)">
+  <component name="RunManager" selected="Application.CheckDFS">
     <configuration name="BinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinaryTree.BinaryTreeDemo" />
       <module name="Algorithm and Data Structure" />
@@ -76,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashtab.HashTabDemo" />
+    <configuration name="CheckDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.LinkedListGraph.CheckDFS" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashtab.*" />
+          <option name="PATTERN" value="Graph.LinkedListGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowestAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.TestAncestor.LowestAncestor" />
+    <configuration name="GraphDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.GraphDemo" />
       <module name="Algorithm and Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test.TestAncestor.*" />
+          <option name="PATTERN" value="Graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckDFS" />
+        <item itemvalue="Application.GraphDemo" />
         <item itemvalue="Application.MyObject (1)" />
         <item itemvalue="Application.MinSegmentTree" />
         <item itemvalue="Application.BinaryTreeDemo" />
-        <item itemvalue="Application.LowestAncestor" />
-        <item itemvalue="Application.HashTabDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +168,7 @@
       <workItem from="1580559475920" duration="229000" />
       <workItem from="1580613426818" duration="134000" />
       <workItem from="1580648369240" duration="508000" />
-      <workItem from="1583548852750" duration="4919000" />
+      <workItem from="1583548852750" duration="10325000" />
     </task>
     <servers />
   </component>
@@ -186,26 +180,42 @@
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
     <state x="329" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/38.23.1642.1027@38.23.1642.1027" timestamp="1583549532105" />
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1583619734023">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1583882532312">
       <screen x="39" y="23" width="1641" height="1027" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.bottom/38.23.1642.1027@38.23.1642.1027" timestamp="1583550464739" />
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1583619734023" />
-    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1583619734022">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1583882532312" />
+    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1583882532311">
       <screen x="39" y="23" width="1641" height="1027" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.center/38.23.1642.1027@38.23.1642.1027" timestamp="1583550464738" />
-    <state width="1358" height="191" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1583619734022" />
-    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1583619734021">
+    <state width="1358" height="191" key="GridCell.Tab.0.center/39.23.1641.1027@39.23.1641.1027" timestamp="1583882532311" />
+    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1583882532310">
       <screen x="39" y="23" width="1641" height="1027" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.left/38.23.1642.1027@38.23.1642.1027" timestamp="1583550464738" />
-    <state width="1358" height="191" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1583619734021" />
-    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1583619734023">
+    <state width="1358" height="191" key="GridCell.Tab.0.left/39.23.1641.1027@39.23.1641.1027" timestamp="1583882532310" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1583882532312">
       <screen x="39" y="23" width="1641" height="1027" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.right/38.23.1642.1027@38.23.1642.1027" timestamp="1583550464739" />
-    <state width="1358" height="191" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1583619734023" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right/39.23.1641.1027@39.23.1641.1027" timestamp="1583882532312" />
+    <state width="1358" height="227" key="GridCell.Tab.1.bottom" timestamp="1583882330473">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1358" height="227" key="GridCell.Tab.1.bottom/39.23.1641.1027@39.23.1641.1027" timestamp="1583882330473" />
+    <state width="1358" height="227" key="GridCell.Tab.1.center" timestamp="1583882330472">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1358" height="227" key="GridCell.Tab.1.center/39.23.1641.1027@39.23.1641.1027" timestamp="1583882330472" />
+    <state width="1358" height="227" key="GridCell.Tab.1.left" timestamp="1583882330472">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1358" height="227" key="GridCell.Tab.1.left/39.23.1641.1027@39.23.1641.1027" timestamp="1583882330472" />
+    <state width="1358" height="227" key="GridCell.Tab.1.right" timestamp="1583882330472">
+      <screen x="39" y="23" width="1641" height="1027" />
+    </state>
+    <state width="1358" height="227" key="GridCell.Tab.1.right/39.23.1641.1027@39.23.1641.1027" timestamp="1583882330472" />
     <state x="681" y="157" key="SettingsEditor" timestamp="1583549044481">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
@@ -214,10 +224,10 @@
       <screen x="38" y="23" width="1642" height="1027" />
     </state>
     <state x="536" y="369" key="com.intellij.ide.util.TipDialog/38.23.1642.1027@38.23.1642.1027" timestamp="1583548855829" />
-    <state x="688" y="152" width="683" height="729" key="find.popup" timestamp="1583612466800">
+    <state x="688" y="152" width="683" height="729" key="find.popup" timestamp="1583877520271">
       <screen x="39" y="23" width="1641" height="1027" />
     </state>
-    <state x="688" y="152" width="683" height="729" key="find.popup/39.23.1641.1027@39.23.1641.1027" timestamp="1583612466800" />
+    <state x="688" y="152" width="683" height="729" key="find.popup/39.23.1641.1027@39.23.1641.1027" timestamp="1583877520271" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +236,11 @@
           <url>file://$PROJECT_DIR$/src/Queue/CircleArrayQueue.java</url>
           <line>89</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graph/LinkedListGraph/CheckDFS.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/hashtab/HashTabDemo.java</url>
